@@ -1,0 +1,192 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.em-text {
+    color: #1caa98 !important;
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 40px 0px;
+}
+
+.jumbotron {
+  background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+  color: #fff;
+  height: 499px;
+  overflow: none;
+}
+
+.jumbotron img.app-btn {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.jumbotron img.showcase-img {
+  width: 75%;
+}
+
+img.demo {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+
+section#feature {
+  background: #1caa98;
+  color: #fff;
+  padding: 40px;
+  overflow: auto;
+}
+
+section#feature ul li {
+  font-size: 22px;
+  list-style: none;
+  line-height: 2.0em;
+  
+}
+
+section#feature ul {
+  padding: 0;
+  margin: 0;
+}
+
+section i{
+  margin-right: 5px;
+}
+
+section#title-bar {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background: #1caa98;
+  color: #fff;
+}
+
+section#title-bar h1 {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 30px 0 20px 0;
+}
+
+footer li{
+  float: left;
+  padding: 0 10px 0 10px;
+  list-style: none;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer p {
+  float: right;
+}
+
+
+/* Media Qureries */
+
+@media(max-width: 1200px){
+  
+}
+
+
+@media(max-width: 991px){
+  .showcase-img {
+    display: none;
+  }
+  
+  section#contact .col-md-8 {
+    margin-bottom: 20px;
+  }
+  
+  footer .col-md-6{
+    text-align: center;
+  }
+  
+  footer ul {
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+
+@media(min-width: 768px) and (max-width: 990px){
+  .jumbotron img.app-btn {
+      width: 30%;
+    }
+  
+  .jumbotron {
+    height: 400px;
+    background-size: 100% 100%
+  }
+  
+  .jumbotron h1 {
+    margin-top: 10px
+  }
+}
+
+
+@media(max-width: 768px) {
+  .jumbotron {
+    height: 350px;
+    background-size: 100% 100%;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    margin-top: 10px
+  }
+  
+  footer p {
+    
+    text-align: center;
+    display: inline-block;
+  }
+  
+  footer li {
+    float: none;
+    padding-bottom: 5px;
+  }
+}
+
+
+@media(max-width: 500px){
+  .jumbotron {
+    height: 500px;
+    background-image: none;
+    text-align: center;
+  }
+  
+  .jumbotron img.app-btn {
+    width: 60%;
+    margin: 0 auto 30px auto;
+    display: block;
+  }
+  
+  section#feature ul li {
+   font-size: 19px; 
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer p {
+    float: none;
+    padding-top: 10px;
+  }
+  
+}
